@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skydrive Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="stylesheets/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/html5shiv.js"></script>
+    <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="//js.live.net/v5.0/wl.js"></script>
+    <script src="javascripts/skydrive.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header">
+        <h1>Skydrive Example</h1>
+        <p class="lead">Read and write files from Skydrive, using the Javascript API. - Example by <a href="http://sruiz.co.uk">Sebastian Ruiz</a></p>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+                <button type="button" id="login" class="btn btn-success"><span class="glyphicon glyphicon-star"></span> Login</button>
+                <button type="button" id="logout" class="btn btn-danger">Logout</button>
+                <button type="button" id="showUserData" class="btn btn-default">Show User Data</button>
+                <button type="button" id="getQuota" class="btn btn-default">Get Quota</button>
+                <button type="button" id="listFolders" class="btn btn-default">List Files/folders</button>
+                <button type="button" id="getFiles" class="btn btn-default">Get Files</button>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <p>
+
+        </p>
+
+        <div class="col-md-6" id="JsOutputDiv"></div>
+        <div class="col-md-6" id="JsOutputDivRight"></div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
